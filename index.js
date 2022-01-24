@@ -1,6 +1,5 @@
 const io = require("socket.io")(3000);
 
-//wtf
 io.on("connection", socket => {
   // either with send()
   socket.send("Hello!");
